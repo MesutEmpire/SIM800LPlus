@@ -1,0 +1,12 @@
+# Syntax Coloring Map For SIM800LPlus
+
+# Datatypes (KEYWORD1)
+SIM800LPlus		KEYWORD3
+
+# Methods and Functions (KEYWORD2)
+doGet		KEYWORD2
+doPost		KEYWORD2
+
+# Instances (KEYWORD2)
+
+# Constants (LITERAL1)
