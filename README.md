@@ -1,4 +1,4 @@
-# 📡 SIM800Plus
+# SIM800Plus
 
 **SIM800Plus** is a lightweight Arduino library designed for managing GSM/GPRS connections using the SIMCom SIM800L module.  
 This version extends the original library to add additional methods, including sending raw byte arrays in POST requests, improving data transmission flexibility.
@@ -7,7 +7,7 @@ Originally based on [Olivier Staquet's SIM800L driver](https://github.com/ostaqu
 
 ---
 
-## ✨ Features
+## Features
 
 - GSM/GPRS connectivity management.
 - HTTP and HTTPS connections (GET and POST methods).
@@ -18,7 +18,7 @@ Originally based on [Olivier Staquet's SIM800L driver](https://github.com/ostaqu
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. Download or clone this repository.
 2. Move the `SIM800Plus` folder into your Arduino `libraries` directory.
@@ -33,7 +33,7 @@ lib_deps =
 
 ---
 
-## 🛠️ Basic Usage
+## Basic Usage
 
 ```cpp
 #include <SIM800Plus.h>
@@ -68,7 +68,7 @@ void loop() {
 
 ---
 
-## 🧩 New Extended Methods
+## New Extended Methods
 
 **➔ New feature added:**
 
@@ -91,14 +91,14 @@ if (modem.doPost("http://example.com/endpoint", rawData, sizeof(rawData), respon
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 - [`SIM800Plus.h`](src/SIM800Plus.h) and [`SIM800Plus.cpp`](src/SIM800Plus.cpp) contain full API documentation via comments.
 - Basic examples are available inside the `examples/` directory.
 
 ---
 
-## 🖇️ Compatibility
+## Compatibility
 
 - Arduino Uno, Mega, Nano, Leonardo
 - ESP8266, ESP32 (using HardwareSerial or SoftwareSerial)
@@ -107,7 +107,7 @@ if (modem.doPost("http://example.com/endpoint", rawData, sizeof(rawData), respon
 
 ---
 
-## 📜 License
+## License
 
 This library is licensed under the [MIT License](LICENSE).  
 Originally created by [Olivier Staquet](https://github.com/ostaquet),  
@@ -115,7 +115,7 @@ modified and extended by [Samuel Wainaina](https://github.com/MesutEmpire) in 20
 
 ---
 
-## 🌟 Acknowledgements
+## Acknowledgements
 
 Big thanks to Olivier Staquet for the original **Arduino-SIM800L-driver**!
 
